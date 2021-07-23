@@ -11,6 +11,7 @@ project "YAML"
 	{
 		"src/**.h",
 		"src/**.cpp",
+		"include/**.h"
 	}
   
   includedirs {
