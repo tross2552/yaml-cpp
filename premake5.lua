@@ -14,9 +14,10 @@ project "YAML"
 		"include/**.h"
 	}
   
-  includedirs {
-    "include/yaml-cpp"
-  }
+	includedirs
+	{
+		"include"
+	}
 
 	filter "configurations:Debug"
 		runtime "Debug"
